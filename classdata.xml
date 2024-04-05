@@ -1,0 +1,36 @@
+<classes>
+  <class>
+    <id>1</id>
+    <name>Introduction to Shelly University</name>
+    <description>This class is designed to introduce you to the Shelly University platform.</description>
+    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=287932417&amp;ac.spaceKey=SU</url>
+  </class>
+  <class>
+    <id>2</id>
+    <name>Shelly Plus 1PM UL</name>
+    <description>UL-certified Wi-Fi-operated smart relay, 1 channel 15A, with Power Metering</description>
+    <image>https://www.shelly.com/_Resources/Persistent/2/d/4/0/2d40a8192ec3df16168225c6ec67c59b74f85930/Shelly_Plus1PM-UL.png</image>
+    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=313131019&amp;ac.spaceKey=SU</url>
+  </class>
+  <class>
+    <id>3</id>
+    <name>Shelly Plus H&amp;T</name>
+    <description>Next- Generation Wi-Fi Temperature &amp; Humidity sensor</description>
+    <image>https://www.shelly.com/_Resources/Persistent/3/2/2/0/3220672210fa5a81b144b14786d56f38c1d9671f/Shelly_Wall_Display3_Ivory_x1.png</image>
+    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=439255066&amp;ac.spaceKey=SU</url>
+  </class>
+  <class>
+    <id>4</id>
+    <name>Shelly Motion 2</name>
+    <description>Next-Generation Wi-Fi Motion Sensor with Light Meter and Temperature Sensor</description>
+    <image>https://www.shelly.com/_Resources/Persistent/e/e/a/b/eeabb1a343c90e5b35011b199f3c2cd1571b111f/Shelly_Motion2_x1.png</image>
+    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=332824653&amp;ac.spaceKey=SU</url>
+  </class>
+  <class>
+    <id>5</id>
+    <name>Shelly Plus Plug</name>
+    <description>Shelly Plus Plug US will monitor and control lighting, heating, or any other connected electrical appliance at home</description>
+    <image>https://www.shelly.com/_Resources/Persistent/a/d/4/0/ad40d4c1eb444ebe9c8e0b9860220d22bbecd736/Plus_PlugUS_1-1250x1250.png</image>
+    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=306610180&amp;ac.spaceKey=SU</url>
+  </class>
+</classes>
