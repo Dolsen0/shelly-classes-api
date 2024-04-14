@@ -4,31 +4,53 @@ import path from "path";
 import cors from "cors";
 
 import { fileURLToPath } from "url";
-import { parseStringPromise } from "xml2js"; // Import the parseStringPromise function from xml2js
+import { parseStringPromise } from "xml2js";
+
+import GetFileFtp from "./src/services/ftp/index.js";
+import { adminLogin } from "./src/controllers/adminAuth/index.js";
+import { getClasses } from "./src/controllers/classes/index.js";
 
 const app = express();
 const PORT = 8080;
-
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 app.use(cors());
+app.use(express.json());
 
-app.get("/", (req, res) => {
-  res.send("Hello World");
+
+// Fetches classdata.xml file from FTP server
+GetFileFtp();
+
+// Retrieves and displays classdata.xml file in JSON format
+app.get("/api/classes", getClasses);
+
+
+// Admin Auth Routes
+app.get("/api/login", (req, res) => {
+  res.send("This is the login page");
 });
 
-app.get("/api/classes", async (req, res) => {
-  try {
-    const xmlFilePath = path.join(__dirname, "classdata.xml");
-    const content = await fs.promises.readFile(xmlFilePath, "utf8");
-    const result = await parseStringPromise(content);
-    res.json(result);
-  } catch (error) {
-    console.error("Failed to read or convert the XML file:", error);
-    res.status(500).json("Failed to read or convert the XML file.");
-  }
+app.post("/api/login", adminLogin);
+
+
+// Admin CRUD Routes
+
+app.get("/api/admin", (req, res) => {
+  res.send("This is the admin page");
+});
+
+app.post("/api/admin", (req, res) => {
+  res.send("ok");
+});
+
+app.patch("/api/admin", (req, res) => {
+  res.send("This is the admin page");
+});
+
+app.delete("/api/admin", (req, res) => {
+  res.send("This is the admin page");
 });
 
 app.listen(PORT, () => {

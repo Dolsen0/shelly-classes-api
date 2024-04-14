@@ -4,6 +4,7 @@
     <name>Introduction to Shelly University</name>
     <description>This class is designed to introduce you to the Shelly University platform.</description>
     <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=287932417&amp;ac.spaceKey=SU</url>
+    <image>https://shellyusa.atlassian.net/249d1bc1-a366-4022-a4e5-47bb9a86e150</image>
   </class>
   <class>
     <id>2</id>
@@ -34,4 +35,12 @@
     <image>https://www.shelly.com/_Resources/Persistent/a/d/4/0/ad40d4c1eb444ebe9c8e0b9860220d22bbecd736/Plus_PlugUS_1-1250x1250.png</image>
     <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=306610180&amp;ac.spaceKey=SU</url>
   </class>
+  <!-- <class>
+    <id>6</id>
+    <name>Contactor Tips</name>
+    <description>Contactors are relays for high amperage or multi-wire circuits. They're simple to use and, when paired with a Shelly relay or energy meter, a properly rated contactor allows you to control any electrical circuit.</description>
+    <image></image>
+    <url>https://www.youtube.com/watch?v=4qA_lKLWFaU</url>
+    <labels>Video, Informational, Dry Contacts, Contactors, Shelly Plus 1</labels>
+  </class> -->
 </classes>
