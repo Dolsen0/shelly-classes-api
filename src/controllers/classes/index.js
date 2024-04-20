@@ -1,5 +1,6 @@
 import fs from "fs";
 import path from "path";
+import GetFileFtp from "../../services/ftp/index.js";
 import { fileURLToPath } from "url";
 import { parseStringPromise } from "xml2js";
 
@@ -11,6 +12,7 @@ export async function getClasses(req, res) {
     const xmlFilePath = path.join(__dirname, "../../../classdata.xml");
     const content = await fs.promises.readFile(xmlFilePath, "utf8");
     const result = await parseStringPromise(content);
+    GetFileFtp();
     res.json(result);
   } catch (error) {
     console.error("Failed to read or convert the XML file:", error);
