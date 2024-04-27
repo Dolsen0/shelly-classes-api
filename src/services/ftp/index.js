@@ -1,21 +1,54 @@
 import { Client } from "basic-ftp";
 import "dotenv/config";
+import path from "path";
+import { fileURLToPath } from "url";
 
-export default async function GetFileFtp() {
+const { FTP_HOST, FTP_USER, FTP_PASSWORD, FTP_PORT } = process.env;
+
+const ftpConfig = {
+  host: FTP_HOST,
+  user: FTP_USER,
+  password: FTP_PASSWORD,
+  port: FTP_PORT,
+  secure: false,
+};
+
+const projectRoot = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "../../.."
+);
+
+const localImagesPath = path.join(projectRoot, "public", "images"); // Define localImagesPath here
+
+export async function GetFileFtp() {
   const client = new Client();
   client.ftp.verbose = true;
   try {
-    await client.access({
-      host: process.env.FTP_HOST,
-      user: process.env.FTP_USER,
-      password: process.env.FTP_PASSWORD,
-      port: process.env.FTP_PORT,
-      secure: false,
-    });
+    await client.access(ftpConfig);
 
-    await client.cd("shelly_university");
+    await client.cd("shelly_university/data");
     const localPath = "./classdata.xml";
     await client.downloadTo(localPath, "classdata.xml");
+  } catch (err) {
+    console.error("Error:", err);
+    throw err;
+  } finally {
+    client.close();
+  }
+}
+
+export async function GetImagesFtp() {
+  const client = new Client();
+  client.ftp.verbose = true;
+  try {
+    await client.access(ftpConfig);
+
+    await client.cd("shelly_university/data/images");
+    const files = await client.list();
+    for (const file of files) {
+      const localPath = path.join(localImagesPath, file.name);
+      await client.downloadTo(localPath, file.name);
+    }
   } catch (err) {
     console.error("Error:", err);
     throw err;

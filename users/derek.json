@@ -1,0 +1,7 @@
+{
+    "id": "user123",
+    "username": "derek",
+    "email": "derek@example.com",
+    "passwordHash": "hashed_password_here",
+    "role": "admin"
+  }
