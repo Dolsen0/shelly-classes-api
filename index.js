@@ -1,10 +1,7 @@
 import 'dotenv/config';
 import express from "express";
-import path from "path";
 import cors from "cors";
 import cron from "node-cron";
-
-import { fileURLToPath } from "url";
 
 import {GetFileFtp, GetImagesFtp} from "./src/services/ftp/index.js";
 import { getClasses } from "./src/controllers/classes/index.js";
@@ -12,15 +9,13 @@ import { getClasses } from "./src/controllers/classes/index.js";
 const app = express();
 const PORT = 8080;
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "build")));
 app.use(express.static('public'));
 
+app.use(cors({
+  origin: ['https://dev-shelly-university.ue.r.appspot.com', 'http://localhost:3000'] // Add the URL of the frontend application - these were used for development
+}));
 
-app.use(cors());
 
 // Retrieves and displays classdata.xml file in JSON format
 app.get("/api/classes", getClasses);
@@ -46,7 +41,7 @@ cron.schedule(
 );
 
 cron.schedule(
-  "05 20 * * *",
+  "52 00 * * *",
   () => {
     GetImagesFtp();
     GetFileFtp();
