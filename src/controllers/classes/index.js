@@ -22,7 +22,6 @@ export async function getClasses(req, res) {
 
     res.json(result);
   } catch (error) {
-    console.error("Failed to read or convert the XML file:", error);
     res.status(500).json({ error: "Failed to read or convert the XML file." });
   }
 }

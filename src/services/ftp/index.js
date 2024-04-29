@@ -30,7 +30,6 @@ export async function GetFileFtp() {
     const localPath = "./classdata.xml";
     await client.downloadTo(localPath, "classdata.xml");
   } catch (err) {
-    console.error("Error:", err);
     throw err;
   } finally {
     client.close();
@@ -50,7 +49,6 @@ export async function GetImagesFtp() {
       await client.downloadTo(localPath, file.name);
     }
   } catch (err) {
-    console.error("Error:", err);
     throw err;
   } finally {
     client.close();

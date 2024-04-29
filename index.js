@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 app.use(cors({
-  origin: ['https://dev-shelly-university.ue.r.appspot.com', 'http://localhost:3000'] // Add the URL of the frontend application - these were used for development
+  origin: ['https://dev-shelly-university.ue.r.appspot.com', 'http://localhost:3000'] // Used for development- Add the URL of the frontend application
 }));
 
 
@@ -30,18 +30,6 @@ This will download the classdata.xml file and images from the FTP server
 
 cron.schedule(
   "0 6 * * *",
-  () => {
-    GetImagesFtp();
-    GetFileFtp();
-  },
-  {
-    scheduled: true,
-    timezone: "America/New_York",
-  }
-);
-
-cron.schedule(
-  "52 00 * * *",
   () => {
     GetImagesFtp();
     GetFileFtp();

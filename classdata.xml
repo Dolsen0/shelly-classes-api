@@ -62,7 +62,7 @@
   <id>6</id>
   <name>Contactor Tips</name>
   <description>Contactors are relays for high amperage or multi-wire circuits. They're simple to use and, when paired with a Shelly relay or energy meter, a properly rated contactor allows you to control any electrical circuit.</description>
-  <image>/images/contactor_tips.jpg</image>
+  <image>http://localhost:8080/images/contactor_tips.jpg</image>
   <url>https://www.youtube.com/watch?v=4qA_lKLWFaU</url>
   <tags>
     <tag>Video</tag>
@@ -77,7 +77,7 @@
   <id>7</id>
   <name>240v Circuits - Two Shelly Pro 3EMs with Contactor Control</name>
   <description>This instruction set shows how to assemble and wire two Shelly Pro 3EM energy meters, with Switch AddOn, and contactors, for use with two 240v circuits. The instruction includes wiring instruction and parts list.</description>
-  <image>/images/install.jpeg</image>
+  <image>http://localhost:8080/images/install.jpeg</image>
   <url>https://shellyusa.atlassian.net/wiki/spaces/SUDL/pages/535429121/Combining+Two+Pro+3EM+Energy+Meters+with+Contactors</url>
   <tags>
     <tag>Instructions</tag>
