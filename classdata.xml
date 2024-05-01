@@ -1,111 +1,107 @@
 <classes>
-  <class>
-    <id>1</id>
-    <name>Introduction to Shelly University</name>
-    <description>This class is designed to introduce you to the Shelly University platform.</description>
-    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=287932417&amp;ac.spaceKey=SU</url>
-  <image>/images/Shelly-University-Logo3.png</image>
-        <tags>
-        <tag>University</tag>
-        </tags>
-  </class>
-  
-  <class>
-    <id>2</id>
-    <name>Shelly Plus 1PM UL</name>
-    <description>UL-certified Wi-Fi-operated smart relay, 1 channel 15A, with Power Metering</description>
-    <image>https://www.shelly.com/_Resources/Persistent/2/d/4/0/2d40a8192ec3df16168225c6ec67c59b74f85930/Shelly_Plus1PM-UL.png</image>
-    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=313131019&amp;ac.spaceKey=SU</url>
-      <tags>
-        <tag>Shelly Plus 1</tag>
-      </tags>
-
-  </class>
-  
-  <class>
-    <id>3</id>
-    <name>Shelly Plus H&amp;T</name>
-    <description>Next- Generation Wi-Fi Temperature &amp; Humidity sensor</description>
-    <image>https://www.shelly.com/_Resources/Persistent/3/2/2/0/3220672210fa5a81b144b14786d56f38c1d9671f/Shelly_Wall_Display3_Ivory_x1.png</image>
-    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=439255066&amp;ac.spaceKey=SU</url>
-    <tags>
-      <tag>temperature</tag>
-      <tag>humidity</tag>
-    </tags>
-  </class>
-
-  <class>
-    <id>4</id>
-    <name>Shelly Motion 2</name>
-    <description>Next-Generation Wi-Fi Motion Sensor with Light Meter and Temperature Sensor</description>
-    <image>https://www.shelly.com/_Resources/Persistent/e/e/a/b/eeabb1a343c90e5b35011b199f3c2cd1571b111f/Shelly_Motion2_x1.png</image>
-    <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=332824653&amp;ac.spaceKey=SU</url>
-    <tags>
-    <tag>motion</tag>
-    </tags>
-  </class>
-<class>
-  <id>5</id>
-  <name>Shelly Plus Plug</name>
-  <description>Shelly Plus Plug US will monitor and control lighting, heating, or any other connected electrical appliance at home</description>
-  <image>https://www.shelly.com/_Resources/Persistent/a/d/4/0/ad40d4c1eb444ebe9c8e0b9860220d22bbecd736/Plus_PlugUS_1-1250x1250.png</image>
-  <url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=306610180&amp;ac.spaceKey=SU</url>
-  <tags>
-    <tag>plug</tag>
-    <tag>home automation</tag>
-    <tag>energy management</tag>
-  </tags>
-</class>
-
-
-<class>
-  <id>6</id>
-  <name>Contactor Tips</name>
-  <description>Contactors are relays for high amperage or multi-wire circuits. They're simple to use and, when paired with a Shelly relay or energy meter, a properly rated contactor allows you to control any electrical circuit.</description>
-  <image>http://localhost:8080/images/contactor_tips.jpg</image>
-  <url>https://www.youtube.com/watch?v=4qA_lKLWFaU</url>
-  <tags>
-    <tag>Video</tag>
-    <tag>Informational</tag>
-    <tag>Dry Contacts</tag>
-    <tag>Contactors</tag>
-    <tag>Shelly Plus 1</tag>
-  </tags>
-</class>
-
-<class>
-  <id>7</id>
-  <name>240v Circuits - Two Shelly Pro 3EMs with Contactor Control</name>
-  <description>This instruction set shows how to assemble and wire two Shelly Pro 3EM energy meters, with Switch AddOn, and contactors, for use with two 240v circuits. The instruction includes wiring instruction and parts list.</description>
-  <image>http://localhost:8080/images/install.jpeg</image>
-  <url>https://shellyusa.atlassian.net/wiki/spaces/SUDL/pages/535429121/Combining+Two+Pro+3EM+Energy+Meters+with+Contactors</url>
-  <tags>
-    <tag>Instructions</tag>
-    <tag>Energy Metering</tag>
-    <tag>240v</tag>
-    <tag>Contactor</tag>
-    <tag>Shelly Pro 3EM</tag>
-    <tag>Switch AddOn</tag>
-  </tags>
-</class>
-
-<class>
-  <id>8</id>
-  <name>Shelly Plus 1PM - The Benefits of Office Installations</name>
-  <description>This white paper covers the most popular solutions powered by Shelly Plus 1PM for office environments.</description>
-  <image>/images/washing.jpg</image>
-  <url>https://shellyusa.atlassian.net/wiki/spaces/SUDL/pages/531365942/Shelly+Plus+1PM+The+Benefits+of+Office+Installations</url>
-  <tags>
-    <tag>White Paper</tag>
-    <tag>Informational</tag>
-    <tag>Power Measurement</tag>
-    <tag>Commercial</tag>
-    <tag>Office</tag>
-    <tag>Shelly Plus 1PM</tag>
-  </tags>
-</class>
-
-
-
-  </classes>
+	<class>
+		<id>1</id>
+		<name> Door Opener Solutions Powered By Shelly</name>
+		<description>Learn everything you need to automate any garage door opener with Shelly. Add sensors to detect door position, integrate invisible eye, set up scheduled lockouts for security, even use with commercial sized doors.</description>
+		<url>https://shellyusa.atlassian.net/wiki/spaces/SUDADI/pages/572522519/Garage+Door+Opener+Solutions+Powered+by+Shelly</url>
+		<image>/images/id1.jpg</image>
+		<tags>
+			<tag>garage door</tag>
+			<tag>solution guide</tag>
+			<tag>Plus 1</tag>
+			<tag>Plus Uni</tag>
+			<tag>Plus i4DC</tag>
+			<tag>Plus Plug US</tag>
+			<tag>BLU Door/Window</tag>
+		</tags>
+	</class>
+	<class>
+		<id>2</id>
+		<name>Shelly Plus 1PM UL</name>
+		<description>Shelly Plus 1PM is a UL-certified Wi-Fi-operated smart relay, 1 channel 15A, with Power Metering. This product introduction class gives you all the basics of this device for first time users.</description>
+		<image>/images/id2.jpg</image>
+		<url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=313131019&amp;ac.spaceKey=SU</url>
+		<tags>
+			<tag>Plus 1PM</tag>
+			<tag>product introduction</tag>
+		</tags>
+	</class>
+	<class>
+		<id>3</id>
+		<name>Shelly Plus H&amp;T</name>
+		<description>Next- Generation Wi-Fi Temperature &amp; Humidity sensor</description>
+		<image>https://www.shelly.com/_Resources/Persistent/3/2/2/0/3220672210fa5a81b144b14786d56f38c1d9671f/Shelly_Wall_Display3_Ivory_x1.png</image>
+		<url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=439255066&amp;ac.spaceKey=SU</url>
+		<tags>
+			<tag>temperature</tag>
+			<tag>humidity</tag>
+			<tag>Shelly Plus HT</tag>
+			<tag>product introduction</tag>
+		</tags>
+	</class>
+	<class>
+		<id>4</id>
+		<name>Shelly Motion 2</name>
+		<description>Next-Generation Wi-Fi Motion Sensor with Light Meter and Temperature Sensor</description>
+		<image>https://www.shelly.com/_Resources/Persistent/e/e/a/b/eeabb1a343c90e5b35011b199f3c2cd1571b111f/Shelly_Motion2_x1.png</image>
+		<url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=332824653&amp;ac.spaceKey=SU</url>
+		<tags>
+			<tag>Motion 2</tag>
+			<tag>motion</tag>
+			<tag>lux</tag>
+			<tag>product introduction</tag>
+		</tags>
+	</class>
+	<class>
+		<id>5</id>
+		<name>Shelly Plus Plug</name>
+		<description>Shelly Plus Plug US will monitor and control lighting, heating, or any other connected electrical appliance at home</description>
+		<image>https://www.shelly.com/_Resources/Persistent/a/d/4/0/ad40d4c1eb444ebe9c8e0b9860220d22bbecd736/Plus_PlugUS_1-1250x1250.png</image>
+		<url>https://shellyusa.atlassian.net/wiki/plugins/servlet/ac/com.mute.confluence.plugins.lms/playcourse?ac.courseId=306610180&amp;ac.spaceKey=SU</url>
+		<tags>
+			<tag>Plus Plug</tag>
+			<tag>Plus Plug US</tag>
+			<tag>energy management</tag>
+			<tag>product introduction</tag>
+		</tags>
+	</class>
+	<class>
+		<id>6</id>
+		<name>Contactor Tips</name>
+		<description>Contactors are relays for high amperage or multi-wire circuits. They're simple to use and, when paired with a Shelly relay or energy meter, a properly rated contactor allows you to control any electrical circuit.</description>
+		<image>/images/contactor_tips.jpg</image>
+		<url>https://www.youtube.com/watch?v=4qA_lKLWFaU</url>
+		<tags>
+			<tag>video</tag>
+			<tag>contactors</tag>
+			<tag>Plus 1</tag>
+		</tags>
+	</class>
+	<class>
+		<id>7</id>
+		<name>240v Circuits - Two Shelly Pro 3EMs with Contactor Control</name>
+		<description>This instruction set shows how to assemble and wire two Shelly Pro 3EM energy meters, with Switch AddOn, and contactors, for use with two 240v circuits. The instruction includes wiring instruction and parts list.</description>
+		<image>/images/install.jpeg</image>
+		<url>https://shellyusa.atlassian.net/wiki/spaces/SUDL/pages/535429121/Combining+Two+Pro+3EM+Energy+Meters+with+Contactors</url>
+		<tags>
+			<tag>solution guide</tag>
+			<tag>energy management</tag>
+			<tag>240v</tag>
+			<tag>contactors</tag>
+			<tag>Pro 3EM</tag>
+			<tag>Pro 3EM Switch AddOn</tag>
+		</tags>
+	</class>
+	<class>
+		<id>8</id>
+		<name>Shelly Plus 1PM - The Benefits of Office Installations</name>
+		<description>This white paper covers the most popular solutions powered by Shelly Plus 1PM for office environments.</description>
+		<image>/images/washing.jpg</image>
+		<url>https://shellyusa.atlassian.net/wiki/spaces/SUDL/pages/531365942/Shelly+Plus+1PM+The+Benefits+of+Office+Installations</url>
+		<tags>
+			<tag>white paper</tag>
+			<tag>Plus 1PM</tag>
+		</tags>
+	</class>
+</classes>
 

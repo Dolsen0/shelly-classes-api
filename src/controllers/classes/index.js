@@ -10,7 +10,7 @@ export async function getClasses(req, res) {
     const xmlFilePath = path.join(__dirname, "../../../classdata.xml");
     const content = await fs.promises.readFile(xmlFilePath, "utf8");
     const result = await parseStringPromise(content);
-    const baseUrl = `${req.protocol}s://${req.get('host')}`;
+    const baseUrl = `${req.protocol}://${req.get('host')}`;
 
     if (result.classes && result.classes.class) {
       result.classes.class.forEach(cls => {
